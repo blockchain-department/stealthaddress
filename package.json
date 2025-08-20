@@ -1,0 +1,22 @@
+{
+  "name": "stealth-addresses",
+  "version": "1.0.0",
+  "description": "Ethereum stealth address demo project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node reconstruct.mjs"
+  },
+  "dependencies": {
+    "@noble/secp256k1": "^2.3.0",
+    "bn.js": "^5.2.2",
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
+    "elliptic": "^6.6.1",
+    "ethers": "^6.15.0",
+    "keccak256": "^1.0.6",
+    "noble-secp256k1": "^1.2.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
