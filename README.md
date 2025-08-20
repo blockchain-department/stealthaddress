@@ -53,7 +53,7 @@ Reconstructs the stealth address.
 
 Verifies that the derived stealth address matches the announced one.
 
---Smart Contracts
+-- Smart Contracts
 --MetaAddressRegistry
 
 Stores mapping of user addresses to their scan and spend public keys.
@@ -62,7 +62,7 @@ Users register their keys once.
 
 Allows senders to fetch receiver meta-addresses from chain.
 
---StealthAnnouncement
+-- StealthAnnouncement
 
 Allows senders to announce stealth transfers.
 
@@ -70,7 +70,7 @@ Emits event with ephemeral public key and encrypted payload.
 
 Events are scanned by receivers to identify messages intended for them.
 
---Usage
+-- Usage
 
 Run node generateReceiverKeys.js to generate receiver key pairs.
 
