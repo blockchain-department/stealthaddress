@@ -81,3 +81,9 @@ Run node generateStealthAddress.js to create a stealth address and announcement.
 Use StealthAnnouncement contract to publish the announcement event.
 
 Receiver runs node reconstructStealthAddress.js to recover and verify the stealth address.
+
+-- Notes
+
+All computations are currently performed locally.
+
+These scripts are not actively listening to on-chain events, announcements are saved in local JSON files.
